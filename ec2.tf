@@ -32,6 +32,6 @@ resource "aws_security_group" "jenkins" {
   }
 
   tags = {
-    Name = "allow_tls"
+    Name = "allow_tlss"
   }
 }
